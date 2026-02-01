@@ -1,0 +1,13 @@
+name = "feedback-pulse"
+main = "src/index.ts"
+compatibility_date = "2024-06-01"
+
+# D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "feedback-pulse-db"
+database_id = "e496a3eb-510b-4b2f-ae32-09876ae79786" # Replace after running: wrangler d1 create feedback-pulse-db
+
+# Workers AI binding
+[ai]
+binding = "AI"
